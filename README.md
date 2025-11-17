@@ -17,7 +17,7 @@ This project implements a complete Question Answering (QA) system using both ext
 2. **Open-Domain QA with Retrieval-Augmented Generation (RAG):**  
    Construction of a retrieval system using TF-IDF and Sentence-BERT, followed by integration with extractive and generative QA models to answer questions across a larger corpus.
 
-The project uses the **squad-azerbaijani-reindex-translation** dataset from Hugging Face and follows the requirements provided in the course instructions.
+The project uses the **squad-azerbaijani-reindex-translation** dataset from Hugging Face. Approval will be given upon request.
 
 ---
 
