@@ -46,17 +46,15 @@ To improve contextual understanding, the system uses BERT embeddings generated a
 using the `bert-base-multilingual-cased` tokenizer.
 
 ### Training Configuration
-The following parameters were used in the training pipeline:
-
-MODEL_NAME = "bert-base-multilingual-cased"
-DATASET_NAME = "hajili/squad-azerbaijani-reindex-translation"
-MAX_CONTEXT_LENGTH = 384
-MAX_QUESTION_LENGTH = 64
-BATCH_SIZE = 8
-LEARNING_RATE = 1e-4
-EPOCHS = 1
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+The following parameters were used in the training pipeline:  
+`MODEL_NAME = "bert-base-multilingual-cased"`  
+`DATASET_NAME = "hajili/squad-azerbaijani-reindex-translation"`  
+`MAX_CONTEXT_LENGTH = 384`  
+`MAX_QUESTION_LENGTH = 64`  
+`BATCH_SIZE = 8`  
+`LEARNING_RATE = 1e-4`  
+`EPOCHS = 1`  
+`DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")`
 
 These values reflect typical constraints for QA models trained on low-resource datasets.
 
